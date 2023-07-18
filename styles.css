@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    /* color: #000000; */
+  }
+  
+  h2{
+    text-align: center;
+    color:green;
+    font-size:25px;
+  }
+  
+  p{
+    font-size:30px;
+    font-weight: bold;
+    color:green;
+
+  }
+  .container {
+    text-align: center;
+  }
+  
+  img{
+    height:180px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    color:green;
+    font-size:15px;
+    font-weight: bold;
+    transition:all .3s ease-in-out;
+  }
+
+  button:hover{
+    padding-right:10px;
+    border-radius: 3px solid green;
+    background-color: rgb(104, 255, 96);
+  }
+  
+  input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #44ff00;
+  }
+
+  label{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+  }
+  .dark-mode {
+    background-color: #000000;
+    color: #f5f5f5;
+  }
+  
+  .dark-mode button {
+    background-color: #f5f5f5;
+    color: #000000;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color:white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #2bf603;
+    width: 80%;
+    max-width: 500px;
+    
+  }
+  
+  .close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+  }
+
+  #counter {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  body.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .modal-content.dark-mode {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  .close.dark-mode {
+    color: #ffffff;
+  }
+  
+  button[type="submit"].dark-mode {
+    font-size:30px;
+    font-weight: bold;
+    transition:all .3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover{
+    padding-left:20px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(95, 247, 95);
+  }
+  #openModalBtn.dark-mode {
+    background-color: #fff;
+    color: #000000;
+  }
+  
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #09ff00;
+  color: #66ff00; 
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="email"],
+.dark-mode input[type="password"],
+.dark-mode input[type="tel"],
+.dark-mode select {
+  color: #77ff00;
+}
+
+#gender{
+  background-color: black;
+}
+  /* 
+  .csidecontainerbox:hover{
+    border:1px solid rgb(255, 0, 0);
+}
+
+.csidecontainerboxtext{
+    color:green;
+    font-size:15px;
+    font-weight: bold;
+    transition:all .3s ease-in-out;
+}
+
+.csidecontainerboxtext:hover{
+    padding-left:20px;
+    color: red;
+}
+   */
